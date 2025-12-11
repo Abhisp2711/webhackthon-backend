@@ -19,3 +19,8 @@
       page(home page)
       layout ( for whole layout including navbar footer )
       `
+`
+
+## we have created given listed page
+
+## footer , navbar , hero , event
