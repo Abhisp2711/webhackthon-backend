@@ -4,11 +4,14 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaGlobe } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="bg-[##000208] md:flex md:gap-2 items-center justify-center p-10  ">
+    <div className="bg-[#000208] md:flex md:gap-2 items-center justify-center p-10 text-white ">
+      {/* divider */}
+      <div className="w-full h-px bg-gray-600 "></div>
       {/* comapny  */}
-      <div className=" text-center mb-5 ">
+
+      <div className=" text-center mb-5 mt-4 ">
         <a href="/" className="text-xl cursor-pointer hover:text-gray-200">
-          TechSpire Company
+          TechSpire Club
         </a>
       </div>
 

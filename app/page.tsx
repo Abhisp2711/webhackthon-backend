@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col  items-center justify-center font-sans bg-[ #ff1e00]">
       <div className="flex-col md:flex ">
         <div className="flex-col md:flex items-center justify-center">
-          <h1 className="text-xl pt-4 m-2">
+          <h1 className="text-xl pt-4 m-2 text-white">
             TechSpire is for the fresher who are really want to do something....
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo magni
             repellendus eius nesciunt, nam amet necessitatibus perspiciatis nemo
