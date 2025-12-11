@@ -2,8 +2,10 @@
 
 export default function dashboard() {
   return (
-    <div>
-      <h1>We will update this page soon</h1>
+    <div className="text-white flex items-center justify-center min-h-screen">
+      <h2 className="text-xl">
+        Thank you for your patience we will update soon...
+      </h2>
     </div>
   );
 }
