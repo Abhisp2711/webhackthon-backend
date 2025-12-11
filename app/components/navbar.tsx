@@ -14,9 +14,10 @@ const navigation = [
   { name: "Team", href: "team", current: false },
   { name: "Projects", href: "project", current: false },
   { name: "Calendar", href: "history", current: false },
+  { name: "About", href: "/about", current: false },
 ];
 
-function classNames(...classes) {
+function classNames(...classes: (string | boolean | undefined | null)[]) {
   return classes.filter(Boolean).join(" ");
 }
 

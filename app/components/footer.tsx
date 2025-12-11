@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaGlobe } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="bg-[##000208] md:flex items-center justify-center p-10  ">
+    <div className="bg-[##000208] md:flex md:gap-2 items-center justify-center p-10  ">
       {/* comapny  */}
       <div className=" text-center mb-5 ">
         <a href="/" className="text-xl cursor-pointer hover:text-gray-200">
