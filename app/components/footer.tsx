@@ -3,7 +3,7 @@ import {} from "react-icons";
 
 export default function Footer() {
   return (
-    <div className="bg-red-700 flex-col items-center justify-center p-10 ">
+    <div className="bg-[##000208] md:flex items-center justify-center p-10 ">
       {/* comapny  */}
       <div className=" text-center ">
         <a href="/" className="">
@@ -20,7 +20,7 @@ export default function Footer() {
       </div>
       {/* copyright  */}
       <div className="text-center">
-        all right reserverd by TechSpire &copy; 2025
+        All right reserverd by TechSpire &copy; 2025
       </div>
     </div>
   );
