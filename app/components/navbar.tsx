@@ -13,8 +13,8 @@ const navigation = [
   { name: "Dashboard", href: "dashboard", current: true },
   { name: "Team", href: "team", current: false },
   { name: "Projects", href: "project", current: false },
-  { name: "Calendar", href: "history", current: false },
-  { name: "About", href: "/about", current: false },
+  { name: "Event", href: "event", current: false },
+  { name: "About", href: "about", current: false },
 ];
 
 function classNames(...classes: (string | boolean | undefined | null)[]) {
