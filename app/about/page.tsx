@@ -5,7 +5,7 @@ export default function about() {
     <div className="flex min-h-screen items-center justify-center text-xl text-white">
       <h2>
         About TechSpire or Hackathon and Coding Club is the official club of
-        Chaibase Engineering college that has the motto to instill a coding
+        Chaibase Engineering college that has the motto to install a coding
         culture, collaborate, and arrange events relevant to Open Source,
         Graphics and Game Development, Web Development, App Development, and
         many other topics. Many students at the institute are doing well, but
