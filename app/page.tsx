@@ -9,11 +9,11 @@ export default function Home() {
             <h1 className="text-3xl text-white  ">TehcSpire Club</h1>
             <div className="w-full h-0.5 bg-white mb-4"></div>
             <p className=" text-xl text-white">
-              TechSpire is for the fresher who are really want to do
-              something.... Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Quo magni repellendus eius nesciunt, nam amet necessitatibus
-              perspiciatis nemo cum dolorem recusandae ipsa, omnis adipisci
-              itaque qui nulla asperiores quod. Quasi.
+              Teachsphire is for the freshers who really want to do something
+              innovative. By participating in this event you are going to an
+              amazing experience , we are creating an amazing environment where
+              an innovative minds work together and build something
+              unimaginable for future
             </p>
           </div>
           <div className="">
