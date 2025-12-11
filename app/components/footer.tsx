@@ -1,22 +1,32 @@
 "use client";
-import {} from "react-icons";
+
+import { FaFacebook, FaInstagram, FaLinkedin, FaGlobe } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="bg-[##000208] md:flex items-center justify-center p-10 ">
+    <div className="bg-[##000208] md:flex items-center justify-center p-10  ">
       {/* comapny  */}
-      <div className=" text-center ">
-        <a href="/" className="">
-          TechSpire
+      <div className=" text-center mb-5 ">
+        <a href="/" className="text-xl cursor-pointer hover:text-gray-200">
+          TechSpire Company
         </a>
       </div>
 
       {/* social icon  */}
-      <div className="flex  items-center justify-center gap-4 ">
-        <a href="/facebook">Facebook</a>
-        <a href="/linkedIn">LinkedIn</a>
-        <a href="/instagram">Instagram</a>
-        <a href="/website">Website</a>
+      <div className="flex mb-4  items-center justify-center gap-4 ">
+        <a href="/facebook">
+          <FaFacebook color="#3259E8" size={28} />
+        </a>
+
+        <a href="/linkedIn">
+          <FaLinkedin color="#0077B5" size={28} />
+        </a>
+        <a href="/instagram">
+          <FaInstagram color="#E84D67" size={28} />
+        </a>
+        <a href="/website">
+          <FaGlobe color="#3259E8" size={28} />
+        </a>
       </div>
       {/* copyright  */}
       <div className="text-center">
